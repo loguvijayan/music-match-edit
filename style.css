@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    font-family: font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto; 
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgb(2, 62, 20);
+}
+nav ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    list-style-type: none;
+    margin-left: 30px;
+    color: black;
+    font-weight: 600;
+    font-size: medium;
+}
+nav ul li :hover{
+    color: red;
+    text-decoration: underline;
+}
+button
+{
+    background-color: black;
+    color: white;
+    padding: 10px ;
+    margin-right: 5px;
+    border-radius: 10px;
+    border-bottom: 30px;
+}
+button :hover
+{
+    background-color:red;
+}
+.sec-1
+{
+    background-color: white;
+    /*box-shadow: -3px 14px 15px 0px rgba(0,0,0,0.75);*/
+    width: 100%; 
+    margin-left: 90px;
+    display: flex;
+    font-size: 50px;
+    margin-top: 140px;
+}
+.sec-1 h1
+{
+    font-size: 90px;
+}
+.subsec-1,.subsec-2,.subsec-3,.subsec-4
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.subsec-1 ul li ,.subsec-2 ul li ,.subsec-3 ul li ,.subsec-4 ul li
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Main-sec
+{
+    display: flex;
+    margin-left: 15px;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+.sec-2
+{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    justify-content: center;
+    border-image-outset: 0px;
+    border-color: white;
+}
+.sec-3
+{
+    display: flex;
+    align-items: normal;
+    margin-left: 100px;
+    border-image: none;
+}
+.button-1
+{
+    display: flex;
+    padding-right: 5px;
+    margin-left: 600px;
+    margin-top: 80px;
+}
+.sec-3,h3
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    font-size: 25px;
+    margin-left: 50px;
+    font-weight: lighter;
+    
+    
+}
+.sec-4
+{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.sec-4,h2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    border-color: white;
+    font-size: 50px;
+}
